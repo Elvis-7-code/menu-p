@@ -1,0 +1,37 @@
+#new-meal{
+    display:flex;
+    margin: 1rem 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+
+    gap: 0.5rem;
+  }
+
+    
+  body {
+    padding: 1rem;
+    text-align: center;
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  #new-meal img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 15px;
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out;
+  }
+
+    
+  #new-meal img:hover {
+    animation: float 2s ease-in-out infinite;
+  }
+  
